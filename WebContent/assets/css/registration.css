@@ -1,0 +1,30 @@
+body
+{
+	font-family:"微軟正黑體",Tahoma, Helvetica, Arial, sans-serif;
+	margin-top:0px;
+	margin-left:0px;
+	width:100%;background-color: #fdfdfd;
+	
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.contain{
+	width: 800px;
+	height: 472px;
+	margin:0px auto;
+	margin-top: 81px;
+}
+.form-center{
+	margin-top: 30px;
+    	padding-left: 361px;
+}
+.error{
+	width: 100%;
+	text-align:center;
+	color: red;
+	font-size: 18;
+}

@@ -1,0 +1,218 @@
+body
+{
+	font-family: "微軟正黑體",Tahoma, Helvetica, Arial, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #fdfdfd;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: none;
+}
+input:hover
+{
+	cursor: pointer;
+}
+.bar
+{
+	width: 800px;
+	height: 42px;
+	margin: 0px auto;
+	margin-top: 81px;
+}
+.contain
+{
+	width: 800px;
+	height: auto;
+	min-height:500px;
+	margin: 0px auto;
+	border: 1px solid #ddd;
+	border-top-color: transparent;
+	background-color: #fff;
+	padding: 30px;
+}
+.title
+{
+	font-weight: bolder;
+	font-size: 36px;
+}
+.user-block
+{
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding: 4px;
+	margin-right: 5px;
+}
+.message-block
+{
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding: 4px;
+	margin-right: 5px;
+	font-size: 24px;
+}
+.name-block
+{
+	width: 300px;
+	height: 30px;
+	margin-top: 5px;
+	font-size: 22px;
+	color: #3b5998;
+	font-weight: bold;
+}
+.name-block-m
+{
+	width: auto;
+	height: 30px;
+	font-size: 17px;
+	color: #3b5998;
+	font-weight: bold;
+}
+.time-block
+{
+	height: 30px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.question-block
+{
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.option-block
+{
+	height: auto;
+	margin-top: 15px;
+	font-size: 18px;
+}
+.vote-button
+{
+	margin-top: 50px;
+	width: 150px;
+	margin-left: 320px;
+}
+.message-contain{
+	margin-top: 30px;
+	height: 45px;
+}
+.message-txt{
+	width: 685px;
+	float: left;
+}
+#sendMessage{
+    visibility: hidden;
+}
+.message-panel{
+	height: auto;
+	padding: 0px 10px 0px 10px;
+	font-size: 16px;
+}
+.message-detail{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 35px;
+}
+.time-block-m{
+	float: right;
+	width: 175px;
+	font-size: 13px;
+	color: black;
+	font-weight: normal;
+}
+hr{
+	    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox label:after,
+.radio label:after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.checkbox .cr,
+.radio .cr
+{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #a9a9a9;
+	border-radius: .25em;
+	width: 1.3em;
+	height: 1.3em;
+	float: left;
+	margin-right: .5em;
+}
+
+.radio .cr
+{
+	border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon
+{
+	position: absolute;
+	font-size: .8em;
+	line-height: 0;
+	top: 50%;
+	left: 20%;
+}
+
+.radio .cr .cr-icon
+{
+	margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"]
+{
+	display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon
+{
+	transform: scale(3) rotateZ(-20deg);
+	opacity: 0;
+	transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon
+{
+	transform: scale(1) rotateZ(0deg);
+	opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr
+{
+	opacity: .5;
+}
+.chartContain{
+	margin-left: 20px;
+	margin-bottom: 40px;
+    width: 700px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.viewMore{
+	width: 100px;
+	color: #337ab7;
+	cursor: pointer;
+}
+.viewMore:hover {
+    color: #23527c;
+}
+    

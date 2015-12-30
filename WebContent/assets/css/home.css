@@ -1,0 +1,133 @@
+body
+{
+	font-family: "微軟正黑體",Tahoma, Helvetica, Arial, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #fdfdfd;
+
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+.contain
+{
+	min-height: 500px;
+	width: 993px;
+	overflow: auto;
+	margin: 0px auto;
+	margin-top: 81px;
+}
+
+.left-panel
+{
+	width: 230px;
+	height: auto;
+	float: left;
+}
+.right-panel
+{
+	width: 730px;
+	height: auto;
+	float: right;
+}
+
+.room-panel
+{
+	width: 220px;
+	margin: 0px 20px 20px 0px;
+	float: left;
+}
+.room-title
+{
+	width: 69%;
+	height: 55px;
+	float: left;
+	margin: 0% 0% 0% 3%;
+	font-size: 18px;
+}
+.room-ticket
+{
+	width: 25%;
+	height: 55px;
+	float: right;
+	margin: 0% 3% 0% 0%;
+	font-size: 16px;
+	text-align: right;
+}
+
+.panel-gray
+{
+	border-color: #eee;
+}
+.panel-gray a:hover
+{
+	color: #49434e;
+}
+.panel-gray a
+{
+	color: #797979;
+}
+.panel-gray:hover {
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.panel-gray .panel-heading
+{
+	border-color: #eee;
+	color: #000;
+	background-color: #e8e8e8;
+	line-height: 25px;
+}
+.topbar{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 20px 0px 15px 0px;
+}
+.create-btn{
+	float: left;
+	margin-left: 45px;
+}
+.search
+{
+	float: left;
+	width: 350px;
+}
+.edit
+{
+	width: 30px;
+	height: 30px;
+	float: right;
+	top: -5px;
+	margin-left: 8px;
+}
+.message-logo
+{
+	width: 20px;
+	height: 20px;
+}
+.lock-logo
+{
+	width: 20px;
+	height: 20px;
+}
+.panel-footer a
+{
+	padding: 4px 0px;
+}
+.room-time
+{
+	width: 208px;
+	height: 25px;
+	float: left;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	margin-left: 10px;
+}
