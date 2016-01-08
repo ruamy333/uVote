@@ -66,7 +66,6 @@ public class Option {
 		Option o=new Option();
 		System.out.println(o.getOptionDetail(11));
 		System.out.println(o.getOptionCounts(11));
-		
 	}
 	
 }

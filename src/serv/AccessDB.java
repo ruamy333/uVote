@@ -22,7 +22,8 @@ public class AccessDB {
 		String user = "test";
 		String pass = "test";
 		String database = "uvote";
-		String url = "jdbc:mysql://localhost:3306/" + database
+
+		String url = "jdbc:mysql://140.127.65.65:3306/" + database
 				+ "?useUnicode=true&characterEncoding=big5";
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();

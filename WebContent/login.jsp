@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="assets/css/login.css" type="text/css">
 </head>
 <body>
+	<form name = "page" action = "Servlet" method = "post" >
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -39,7 +40,7 @@
 				<input type="text" name="account" id="account" class="form-control" placeholder="Account" required autofocus>
 				<input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
 				<font color="red">
-					<? echo $err;?>
+	
 				</font>
 				<div id="remember" class="checkbox">
 					<label>
@@ -49,6 +50,7 @@
 				<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">
 					Sign in
 				</button>
+				<input type = "hidden" name = "pageName" value = "login">
 
 			</form>
 			<button class="btn btn-lg btn-primary btn-block btn-signin"  type="button" onclick="location.href='registration.jsp'">
@@ -56,5 +58,6 @@
 			</button><!-- /form -->
 		</div><!-- /card-container -->
 	</div><!-- /container -->
+	</form>
 </body>
 </html>
