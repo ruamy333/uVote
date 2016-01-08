@@ -8,12 +8,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-<<<<<<< HEAD
 	<classpathentry kind="lib" path="D:/eclipse/web-tools/servlet-api-3.0.20090124.jar"/>
 	<classpathentry kind="lib" path="D:/eclipse/web-tools/mysql-connector-java-5.1.22-bin.jar"/>
-=======
-	<classpathentry kind="lib" path="D:/web-tools/servlet-api-3.0.20090124.jar"/>
-	<classpathentry kind="lib" path="D:/web-tools/mysql-connector-java-5.1.22-bin.jar"/>
->>>>>>> branch 'master' of https://github.com/ruamy333/uVote.git
+
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
