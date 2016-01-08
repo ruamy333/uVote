@@ -1,12 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=BIG5">
-<title>Insert title here</title>
-</head>
-<body>
-
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted">
+			824-44 高雄市燕巢區深中路62號 致理大樓 三樓　|　NKNU 軟體工程與管理系 <br/>
+			produced by Yen-Jung Lai, Chang Chih Lin, Zi-Chen Liou
+		</p>
+	</div>
+</footer>
 </body>
 </html>
